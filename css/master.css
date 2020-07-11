@@ -1,0 +1,40 @@
+* {
+  font-family:  Helvetica, sans-serif;
+}
+
+div.header {
+  text-align: center;
+}
+
+div h2 {
+  text-align: center;
+  margin-right: 10px;
+}
+
+.section_1 p {
+  padding: 10px;
+  font-size: 150%;
+}
+
+@media (min-width:768px) {
+  /* For Desktop */
+  div.section_1{
+    width: 100%;
+    float: left;
+  }
+  .section_1_part {
+    background-color: #e5e5e5;
+    margin: 20px;
+}
+}
+
+@media (max-width:767px) {
+  /* For mobile phones: */
+  div.section_1 {
+    width: 100%;
+  }
+  .section_1_part {
+    background-color: #e5e5e5;
+    margin: 20px;
+}
+}
